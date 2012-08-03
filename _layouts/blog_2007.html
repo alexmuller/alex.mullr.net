@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>{{ page.title }} &mdash; Alex Muller</title>
+
+<link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css" type="text/css" media="screen" />
+
+<style type="text/css" media="screen">
+  #page { background: url("/images/wordpress/theme/bg.png") repeat-y top; border: none; }
+</style>
+
+{% include tracking.html %}
+
+</head>
+<body>
+<div id="page">
+
+
+<div id="header" onclick="location.href='http://alex.mullr.net/blog/';" style="cursor: pointer;">
+	<div id="headerimg">
+		<h1><a href="/"></a></h1>
+		<div class="description"></div>
+	</div>
+</div>
+<hr />
+
+
+
+
+
+
+
+
+	<div id="content" class="narrowcolumn">
+
+		<div class="post" id="post-{{ page.wordpress_id }}">
+			<h2>{{ page.title }}</h2>
+
+			<div class="entry">
+			  
+			  {{ content }}
+
+				<p class="postmetadata alt">
+					<small>
+					  Comments can be emailed.
+					  <br />
+						I posted this on {{ page.date | date: "%A, %B %d, %Y" }}
+						at {{ page.date | date: "%H:%M" }}, under
+						{% for category in page.categories %}
+    			    <a href="/blog/category/{{ category }}/">{{ category | capitalize }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}.
+
+					</small>
+				</p>
+
+			</div>
+		</div>
+
+
+	</div>
+	
+	
+	
+	
+	
+	
+	<div id="sidebar">
+  		<ul>
+  		  
+  		  <p style="background: #fff; border: 2px solid red; margin: 4px 4px 24px 4px; padding:
+        4px;">This page was published in <span style="color: red; font-weight:
+        bold;">{{ page.date | date: "%B %Y" }}</span>, and as such the information
+        in the post or about me in the sidebar may be out of date. Visit <a href="/"
+        style="color: #000; font-weight: bold;">the main page</a> for more
+        up-to-date information about me.</p>
+        
+
+  		<li class="sidebarlink"><a href="/blog/" class="sidebarlink"><img src="/images/wordpress/blogicon.png" alt="Blog"> Blog main page</a></li>
+  		<li class="sidebarlink"><a href="/" class="sidebarlink"><img src="/images/wordpress/favicon.png" alt="Home"> Return to mullr.net</a></li>
+  		<li><h2>Archives</h2> <!-- <img src="/images/wordpress/folder.png" alt="Archives" />  -->
+  			<ul>
+      	  <li><a href="/blog/2007/11/" title="November 2007">November 2007</a></li>
+      		<li><a href="/blog/2007/10/" title="October 2007">October 2007</a></li>
+        	<li><a href="/blog/2007/09/" title="September 2007">September 2007</a></li>
+        	<li><a href="/blog/2007/08/" title="August 2007">August 2007</a></li>
+        	<li><a href="/blog/2007/07/" title="July 2007">July 2007</a></li>
+        	<li><a href="/blog/2007/06/" title="June 2007">June 2007</a></li>
+  			</ul>
+  		</li>
+
+  			<li id="categories" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>		<ul>
+  			<li><a href="/blog/category/education/" title="View all posts filed under Education">Education</a>
+  </li>
+  	<li><a href="/blog/category/life/" title="View all posts filed under Life">Life</a>
+  </li>
+  	<li><a href="/blog/category/mac/" title="View all posts filed under Mac">Mac</a>
+  </li>
+  	<li><a href="/blog/category/technology/" title="View all posts filed under Technology">Technology</a>
+  </li>
+  	<li><a href="/blog/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+  </li>
+  		</ul>
+  </li>	</ul>
+  	</div>
+
+
+
+
+
+
+
+
+
+  <hr />
+  <div id="footer">
+  	<p><br /><br /></p>
+  </div>
+  </div>
+
+  </body>
+  </html>
+
+
+
+

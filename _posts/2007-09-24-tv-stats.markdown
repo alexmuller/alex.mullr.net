@@ -1,0 +1,19 @@
+---
+date: '2007-09-24 01:05:25'
+layout: blog_2007
+slug: tv-stats
+status: publish
+title: TV Stats
+wordpress_id: '35'
+categories:
+- life
+---
+
+**Shocking** television statistics in the RadioTimes magazine from this week:
+
+* 77% of all people who subscribe to high definition watch less standard definition now
+* Films and sport, the two genres with the most HD material, have seen the greatest increase in HD viewing hours
+
+![TV Stats](http://mullr.net/images/wordpress/2007/rt-magazine-stats.png)
+
+Boy, do I look surprised…

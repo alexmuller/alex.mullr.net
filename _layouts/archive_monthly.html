@@ -1,0 +1,16 @@
+---
+layout: main
+body: archive
+---
+
+<p>These are posts I wrote in {{ page.month | date_to_month }} <a href="../">{{ page.year }}</a>.</p>
+
+<ol>
+	{% for d in (1..31) reversed %}
+		{% if page.collated_posts[page.year][page.month][d] %}
+			{% for p in page.collated_posts[page.year][page.month][d] reversed %}
+			<li><strong>{{ p.date | date: "%d" }}</strong> <a href='{{ p.url }}'>{{ p.title }}</a></li>
+			{% endfor %}
+		{% endif %}
+	{% endfor %}
+</ol>

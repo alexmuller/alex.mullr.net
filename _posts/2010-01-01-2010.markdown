@@ -1,0 +1,40 @@
+---
+date: '2010-01-01 14:28:07'
+layout: blog_2010
+slug: '2010'
+status: publish
+title: '2010'
+wordpress_id: '580'
+categories:
+- life
+- technology
+tags:
+- life
+- online
+- wakoopa
+- web
+---
+
+![Time using software](http://alexmuller.s3.amazonaws.com/static/blog/2010-01-01-software.png)
+
+After writing about [spending time
+online](http://alex.mullr.net/blog/2009/12/spending-time-online/), something
+obvious to everybody else quickly became obvious to me. I spend far too much
+time on the computer. An unhealthy amount of time? Probably, actually. (Dear
+me, I sound like my mum.)
+
+So that’s what I’m going to do less of this year. And, because anything that
+doesn’t include nice big numbers makes me feel queasy, I’m going to use a
+computer to show me that I’m spending less time on the computer. I’m sure
+there’s something wrong with that.
+
+I’m not sure what I’ll do with all that free time. Might possibly… read a
+book? That’s very last decade, I’m sure. If I manage to finish one this month,
+it’ll be Chris Frith’s [Making Up the
+Mind](http://www.amazon.co.uk/Making-Up-Mind-Creates-Mental/dp/1405160225), as
+recommended by [David](http://www.preoccupations.org/) far too long ago. Might
+_even_ do some work. Crazy, I know.
+
+I’ll let you know how things unfold, partly to keep me motivated. And I’ll see
+you in the flesh sometime? It’d be a nice change to your Twitter profile
+picture popping up now and then. Have a great year.

@@ -1,0 +1,27 @@
+---
+date: '2008-10-09 16:00:46'
+layout: blog_2009
+slug: fowa-day-1
+status: publish
+title: FOWA Day 1
+wordpress_id: '247'
+categories:
+- technology
+tags:
+- fowa
+- fowa08
+- london
+---
+
+I've had just the best day at the Future of Web Apps conference. Early morning
+was Kevin Rose on "The Future of News", followed by Edwin Aoki for ten minutes
+talking (more!) about web apps. He sort of set the tone for the day... ;)
+
+A great talk by Joe Stump (digg) and Blaine Cook (ex Twitter) on why languages
+don't scale, it's *other stuff* that has to. Ron Richards from Revision3
+(tongue twisting fun) talked about where online video content is going to go
+in the future, in what was probably the best speech of the day.
+
+Now to finish my tea and dive back into SixApart, Objective-J, BT and
+Techcrunch (all in the developer hall), until 7pm and what promises to be a
+fantastic party at Fox.

@@ -1,0 +1,23 @@
+---
+date: '2010-04-14 07:22:24'
+layout: blog_2010
+slug: wallets
+status: publish
+title: Wallets
+wordpress_id: '634'
+categories:
+- technology
+tags:
+- oystercard
+- paypass
+- rfid
+---
+
+Russell and I are having the same [problem with our
+wallets](http://russelldavies.typepad.com/planning/2010/04/the-long-wallet.html).
+
+Mine’s a Barclaycard
+[PayPass](http://en.wikipedia.org/wiki/MasterCard%23PayPass) that’s giving me
+a headache, though. Might get one of those small tube maps that are made out
+of metal to fix the problem. He’s right that this is going to become more
+common though, especially as banks start rolling out more cards like this.

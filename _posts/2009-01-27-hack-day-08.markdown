@@ -1,0 +1,41 @@
+---
+date: '2009-01-27 11:47:02'
+layout: blog_2009
+slug: hack-day-08
+status: publish
+title: Hack Day '08
+wordpress_id: '332'
+categories:
+- technology
+tags:
+- code
+- lastfm
+- programming
+---
+
+The Last.fm Hack Day took place last month, and I can't believe I didn't post
+anything about it at the time.
+
+[![Last.fm Hack Day](http://farm4.static.flickr.com/3067/3109503067_caf8af4e84.jpg)](http://flickr.com/photos/russss/3109503067/)
+
+It was a great day spent (for me) learning the basics of Python and, a
+technical term here, "pissing about" with the Last.fm API. There was a
+Microsoft Surface and Xboxes on hand to entertain us, and plenty of free food
+and drink.
+
+While I didn't accomplish anything particularly amazing (at the time, it was
+noted that you could do everything I managed with the actual Last.fm website),
+the environment was incredibly conducive to producing good code. Plus, some of
+the people who were actually trying ([Your Next Favourite
+Band](http://yournextfavband.com/)?) made some great little things. See [the
+official Last.fm blog post](http://blog.last.fm/2008/12/22/hack-day-2008) for
+links to all the apps.
+
+Russ (from Last.fm) and I (and many, many others) both have
+[some](http://flickr.com/photos/russss/sets/72157611206271411/)
+[photos](http://flickr.com/photos/alexmuller/3109888937/) on Flickr, though
+his are just a little better. You can see a video that was created of the day
+[on the group page](http://www.last.fm/group/Hack+Day), and I've put a copy
+[on S3](http://alexmuller.s3.amazonaws.com/static/blog/2009-01-26-hackday.flv)
+in case the original disappears. And yes, unfortunately I do make an
+appearance... :D

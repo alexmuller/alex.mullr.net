@@ -1,0 +1,95 @@
+---
+date: '2010-09-15 11:45:56'
+layout: blog_2010
+slug: taste
+status: publish
+title: Taste
+wordpress_id: '679'
+categories:
+- life
+- technology
+tags:
+- design
+- taste
+- university
+- York
+---
+
+Lots of seemingly-different-but-actually-related thoughts coming together
+these last few weeks. What [Gruber](http://daringfireball.net/) said at
+dConstruct seems to be underlying everything. Spoiler? It all comes down to
+taste.
+
+Aside: [Listen to the talks. All of them.](http://huffduffer.com/dConstruct/tags/dconstruct2010)
+
+This email from university today [made me think about
+this](http://twitter.com/alexmuller/status/24556042655) more. On top is the
+email I received, below is how I would have written it.
+
+![Email from York](http://alexmuller.s3.amazonaws.com/static/blog/2010-09-15-halifax-email.png)
+
+If you’re going to be given the ‘power’ to email several thousand students
+with one click, somebody should be ensuring that you have the level of taste
+required to do that properly. This person does not. Seriously: that’s the
+entirety of the email she sent. No indication of who she was, why I received
+it, where it came from (except the `from:` address). This isn’t rocket
+science, it’s just that some people clearly have attention to detail
+approaching zero in some situations.
+
+This is something that’s coming up time and time again for me. It sounds
+elitist and snobby, but I can’t think of a way around it: in situations where
+lots of people can affect a single _thing_\*, there needs to be a gatekeeper.
+
+\* A _thing_ can be a project, website, brand, or any number of other things.
+
+In this case, her email is affecting the Halifax college or university brand -
+and not in a good way. [YUSU](http://www.yusu.org/) is an organisation who
+really look like they get this. Everything that I’ve seen come out of there
+has been beautiful. From their weekly emails, to logos, to building signage
+and their website. All the way down to whatever rubbish they’ll give out to
+new students in a few weeks (key rings, calendars, pens, etc). It all _looks_
+stunning. This is so important.
+
+Taste, and attention to detail. I’m going to be thinking about them far more than ever before.
+
+
+### Comments ###
+
+By [Vanderdecken](http://twitter.com/Vanderdecken) on 15 September 2010 at 12:59:
+
+> Capital F on the second occurrence of Facebook. :)
+> 
+> The worst thing that stood out for me immediately upon reading the first one was
+> how much she managed to mangle that Facebook group URL. I keep being reminded of
+> how easily I was able to deconstruct FB's URL system and know which bits related
+> to what and how so many people don't know how this works. To wit, that the group
+> URL can be stripped down to
+> http://www.facebook.com/group.php?gid=118076614803325 - it's a group so
+> group.php displays it and it has a GUID of 118076614803325. &amp;ref=ts is just
+> a referrer note and all the other crap in the middle is dealing with a photo
+> that they first viewed then clicked an internal FB link to get to the group.
+
+By [Alex Muller](http://alex.mullr.net/blog/) on 15 September 2010 at 15:59:
+
+> Exactly Greg - it’s stuff like that I can’t get my head around. Surely, no
+> matter how much you hate computers, <code>photo.php</code> is something to do
+> with a photo and <code>group.php</code> is something to do with a group.
+> Apparently some people don’t notice stuff like that…
+
+By [Vanderdecken](http://twitter.com/Vanderdecken) on 15 September 2010 at 17:56:
+
+> Nope, they don't look at the URL and even if they did they wouldn't understand
+> that the <code>.php</code> is a PHP file, that the
+> <code>?foo=bar&amp;something=else</code> are arguments to that or that the
+> <code>#!/</code> is Facebook's silly way of tacking on the new address to the
+> previous page you were viewing.
+
+By Michael on 20 September 2010 at 01:35:
+
+> I got this from spd2 and it had this on the bottom of it:
+> 
+> > Amanda Robb
+> > 
+> > Senior Accommodation Assistant
+> 
+> so it looks like you got the version without the from on the end...

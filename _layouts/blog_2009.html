@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{ page.title }} &raquo;  alex.mullr.net/blog by Alex Muller</title>
+
+<link rel="stylesheet" href="/blog/wp-content/themes/mullr/style.css" type="text/css" media="screen" />
+
+<style type="text/css">
+#header {
+	background: url(/blog/wp-content/themes/mullr/images/header.png) no-repeat;
+}
+</style>
+
+{% include tracking.html %}
+
+</head>
+
+<body>
+
+<div style="margin: 8px auto; width: 920px; border: 2px solid red; padding:6px; background:white; font-size: 11px;">
+    <p style="color: darkred;">This post was published in {{ page.date | date: "%B %Y" }} and may contain facts or opinion that are no longer current.</p>
+</div>
+
+
+<div id="container">
+
+<div id="header" onclick="location.href='http://alex.mullr.net//blog';">
+	<h1><a href="/blog/">alex.mullr.net/blog</a></h1>
+	<h2></h2>
+
+</div>
+	
+	
+<div id="menu">
+</div>
+
+<div id="sidebar">
+<ul>
+					<h2>Who?</h2>			<div class="textwidget">My name's <b>Alex Muller</b>, and at the moment I'm a first year Computer Science and Mathematics undergraduate at the University of York.<br /><br />
+Find out all about <a href="/">the online me</a>.<br /></div>
+							<h2>What?</h2>			<div class="textwidget">My personal blog. To give you an idea, here's the seven most popular posts as of November 2008:<br /><br />
+<ul>
+<li><a href="/blog/2007/10/profile-unavailable/">Profile Unavailable</a></li>
+<li><a href="/blog/2008/01/olpc-on-bbc-news/">OLPC on BBC News</a></li>
+<li><a href="/blog/2008/09/t-mobile-vs-o2-on-mobile-data/">T-Mobile vs O2 on Mobile Data</a></li>
+<li><a href="/blog/2008/02/longcat-and-scientology/">Longcat & Scientology</a></li>
+<li><a href="/blog/2008/09/teenage-killings-in-london/">Teenage Killings in London</a></li>
+<li><a href="/blog/2007/10/fowa/">FOWA</a></li>
+<li><a href="/blog/2007/10/oinkcd-shut-down/">OiNK.cd Shut Down</a></li></ul><br />
+I've been doing the blogging thing since June '07, and have over 100 posts here. Enjoy them.<br /></div>
+							<h2> Subscribe</h2>			<div class="textwidget"><ul><li><a href="http://feeds.feedburner.com/alexmuller"><img src="http://mullr.net/images/wordpress/feed.png" /> RSS feed for posts</a></li></ul></div>
+
+</ul>
+
+</div>
+
+	
+	<div id="content">			
+  			
+		<div class="post" id="post-{{ page.wordpress_id }}">
+			<h2>{{ page.title }}</h2>
+				
+			<div class="entry">
+			  {{ content }}
+			</div>
+			
+			<span class="endsectionheader"><h2>about this post</h2></span>
+			<div id="postmetadata">
+			  <p>From {{ page.date | date: "%I%p" }} on {{ page.date | date: "%A %B %d, %Y" }}</p>
+			  <p>Tagged as: {% for tag in page.tags %}
+			    <a href="/blog/tag/{{ tag }}/" rel="tag">{{ tag }}</a>{% if forloop.last == false %} &bull; {% endif %}{% endfor %}
+				</p>
+			</div>
+			
+		</div>
+		
+
+<div id="commentform">
+<span class="endsectionheader"><h3>comment?</h3></span>
+<p>Comments can be emailed.</p>
+</div>
+		
+	</div>
+
+<div id="footer">
+</div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+

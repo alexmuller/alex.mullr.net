@@ -1,0 +1,75 @@
+---
+date: '2008-12-08 15:28:28'
+layout: blog_2009
+slug: the-iwf
+status: publish
+title: The IWF
+wordpress_id: '290'
+categories:
+- technology
+tags:
+- censorship
+- online
+- uk
+- web
+- wikipedia
+---
+
+Here's the deal, if you haven't heard this blow up in the last couple of days.
+It first kicked off around midday on the 5th December when it was discovered
+on Wikipedia that all users in the UK were being passed through a transparent
+proxy; allowing content to be filtered, in this case the [Virgin
+Killer](http://en.wikipedia.org/wiki/Virgin_Killer) article and image.
+
+The Internet Watch Foundation is deeming that this image should be blocked in
+the UK because, after receiving a report from a member of the public, they
+decided it was child pornography. Whether it is or isn't is up for debate
+(though personally I think there's no way in hell it qualifies), but what
+really pisses me off is that they don't even apply their own rules across the
+board.
+
+The following screenshot was taken from my O2 phone (because thankfully we're
+not filtered here at uni):
+
+![The Scorpions - Virgin Killer](http://alexmuller.s3.amazonaws.com/static/blog/2008-12-08-scorpions.png)
+
+On this same phone, the Wikipedia article mentioned is blocked - if you're
+interested, I get an "HTTP/1.1 403 Forbidden" error. I guess the only message
+I have to share is that **censorship does nothing**.
+
+There's a good conversation from BBC Radio 4's Today programme between David
+Gerard (a Wikipedia contributor) and Susan Robertson of the IWF included
+below, originally [here](http://www.bathrobecabal.org/bbcinterview.mp3).
+There's [a massive
+discussion](http://en.wikipedia.org/wiki/Wikipedia:Administrators'_noticeboard/2008_IWF_action)
+on Wikipedia about it, and Ian Betteridge has [one of the better
+articles](http://technovia.co.uk/2008/12/are-some-uk-isps-censoring-wikipedia.html).
+
+[Link to the audio][audio].
+
+[audio]: http://alexmuller.s3.amazonaws.com/static/blog/2008-12-08-bbcinterview.mp3
+
+### Comments ###
+
+By Michael Henley on 09 December 2008 at 00:49:
+
+> [http://iwf.org.uk/public/page.103.htm](http://iwf.org.uk/public/page.103.htm)
+> 
+> "Please note that "child pornography", "child porn" and "kiddie porn" are not
+> acceptable terms. The use of such language acts to legitimise images which are
+> not pornography, rather, they are permanent records of children being sexually
+> abused and as such should be referred to as child sexual abuse images."
+> 
+> By their own admission they are dealing with cases of child abuse. This is
+> obviously not one of those cases. There is the bigger picture - that our
+> internet is being censored. This is something we berate China for and then it
+> turns out that the very same is happening to us. Somebody give me an ISP that
+> just provides the service with non of the shite on top, charge me twice a much a
+> month and see me pay it.
+> 
+
+By [Alex Muller](http://alex.mullr.net/blog/) on 09 December 2008 at 01:23:
+
+> You'll find [this](http://www.facebook.com/topic.php?uid=52982775239&topic=6585)
+> thread in the "Boycott Internet Censors" group on
+> Facebook useful :)

@@ -1,0 +1,22 @@
+---
+date: '2008-07-24 14:37:51'
+layout: blog_2008
+slug: haha
+status: publish
+title: Haha
+wordpress_id: '115'
+categories:
+- technology
+---
+
+[![Haha](http://img.skitch.com/20080724-pxs1ytkb4ih4qx93fxt6jf7njc.preview.jpg)](http://skitch.com/alexmuller/ti5g/haha)
+
+Uploaded with [plasq](http://plasq.com/)'s [Skitch](http://skitch.com)!
+
+Seriously. If you're completely ignoring a browser with at **least** 15%
+market share,\[1\]\[2\] you're a complete idiot. Especially if you call
+yourself a "web developer".
+
+\[1\]: [W3Schools](http://www.w3schools.com/browsers/browsers_stats.asp)
+
+\[2\]: [Usage share of web browsers](http://en.wikipedia.org/wiki/Usage_share_of_web_browsers)

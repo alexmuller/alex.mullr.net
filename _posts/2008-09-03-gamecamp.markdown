@@ -1,0 +1,31 @@
+---
+date: '2008-09-03 12:28:27'
+layout: blog_2009
+slug: gamecamp
+status: publish
+title: GameCamp
+wordpress_id: '150'
+categories:
+- life
+- technology
+---
+
+[![Gherkin](http://farm4.static.flickr.com/3065/2461555771_c69c51e2ec_m.jpg)](http://www.flickr.com/photos/alexmuller/2461555771/)
+
+May 3rd this year was spent at Sony's 3Rooms in central London – the event was
+advertised as an "unconference about games", and that's exactly what was
+delivered. About 120 guys and girls gathered to discuss hardware hacking, the
+future of gaming, or just play Rock Band. First off, Sony's venue is…
+incredible. There are no other words to describe two floors packed full of all
+the hardware you could imagine (PlayStation 3s, PSPs, more Bravia displays
+than you can count) as well as a roof garden with a great view.
+
+I listened to a few sessions, including a discussion on the ethics and
+morality of first person shooters (with the fantastic title of "Don't Kick the
+Baby") and a demo of accessing data from game controllers by Matt Biddulph.
+Photos might be found [in the pool](http://flickr.com/groups/721509@N20/pool/)
+or [my set](http://www.flickr.com/photos/alexmuller/sets/72157604860462472/)
+on Flickr.
+
+Many thanks to everyone who was a little more brave than me and hosted a talk,
+as well as Bobbie Johnson of the Guardian for organising the day.

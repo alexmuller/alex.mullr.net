@@ -1,0 +1,29 @@
+---
+layout: main
+body: archive
+title: Archive
+---
+
+<p>This is a list of every post I've ever written on <a href="/blog/">my blog</a>, sorted by date.</p>
+
+<p>For information on why old posts don't adopt the latest style, see
+<a href="/blog/2011/11/the-web-growing-up/">The web, growing up</a>.</p>
+
+  {% for post in site.posts %}
+
+    {% unless post.next %}
+      </ol>
+      <h2>{{ post.date | date: '%Y' }}</h2>
+      <ol>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        </ol>
+        <h2>{{ post.date | date: '%Y' }}</h2>
+        <ol>
+      {% endif %}
+    {% endunless %}
+
+    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+  {% endfor %}

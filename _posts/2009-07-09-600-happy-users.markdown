@@ -1,0 +1,67 @@
+---
+date: '2009-07-09 10:47:44'
+layout: blog_2009
+slug: 600-happy-users
+status: publish
+title: “600 Happy Users”
+wordpress_id: '448'
+categories:
+- technology
+tags:
+- design
+- maths
+- Portfolio
+- university
+- web
+- York
+---
+
+Last night, my redesign of the internal [Maths
+department](http://maths.york.ac.uk/) VLE at the University of York went live.
+When I started at the department in October last year, it looked a little like
+this:
+
+[![Moodle: Old Home](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-home-old.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-home-old.png)
+
+Click the image to view it in all its glory. I'm not going to draw your
+attention to some of the things I've come to love most about it, because
+frankly it speaks for itself.
+
+As you might expect, looking at that got boring and started to hurt my eyes
+pretty quickly. In May, I went to see [Henning
+Bostelmann](http://maths.york.ac.uk/www/hb540), the guy who looks after all
+things Maths & website there, and offered to try my hand at creating
+something. This is what's happened over the last couple of months:
+
+[![Moodle: New Home](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-home-new.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-home-new.png)
+
+Leaving Henning's office last week, he remarked how there would now be "600
+happy users" in the department - thank you, Henning, for your help testing,
+fixing, testing, updating, and more testing.
+
+I love university; there's so much freedom to do anything and everything to
+improve departments, societies, colleges, the list goes on. I hope I don't
+sound too much like a naive little first year, but I really do think it's the
+case - here's something which will (hopefully) outlast the time I spend at
+York, and that means something to me.
+
+The <del>boring</del> interesting stuff: it's a fairly hacky CSS job (so no
+judging my [lack of] coding skills from here, please), using the gorgeous
+[Silk icons from famfamfam](http://www.famfamfam.com/lab/icons/silk/) - so
+many thanks to Mark James for providing his icons free of charge, they're such
+a great resource. [Moodle](http://moodle.org/), the open-source (_!!, ♥_)
+learning environment that we're using, is actually impressively easy to mess
+about with. This seems to be one of those "20% of pages used 80% of the time"
+situations, so it's nowhere near finished and there's always room for
+improvement; might do the same thing again next year to just tidy it up.
+
+What follows are a few parts that I'm really happy with…
+
+[![Moodle: Old Login](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-login-old.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-login-old.png)
+[![Moodle: New Login](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-login-new.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-login-new.png)
+
+[![Moodle: Old Course Page](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-prob1-old.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-prob1-old.png)
+[![Moodle: New Course Page](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-prob1-new.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-prob1-new.png)
+
+[![Moodle: Old User Page](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-user-old.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-user-old.png)
+[![Moodle: New User Page](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-user-new.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-07-07-moodle-user-new.png)

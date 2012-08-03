@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>{% if page.title %} {{ page.title }} &mdash; {% endif %} Alex Muller</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% if page.description %}<meta name="description" content="{{ page.description | one_line }}" />{% endif %}
+  
+  <!-- CSS -->
+  <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen" /><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
+  
+  {% include ios-orientation-zoom-fix.html %}
+  
+  {% include tracking.html %}
+</head>
+
+<body{% if page.body %} class="{{ page.body }}"{% endif %}>
+  <div class="container">
+    
+    <header id="masthead" class="row">
+      {% if page.title %}
+        <div class="onecol"></div>
+        <div class="sevencol">
+          <h1>{{ page.title }}</h1>
+        </div>
+        <div class="threecol">
+          <h2>
+            By
+            <a href="/">Alex Muller</a>
+          </h2>
+        </div>
+        <div class="onecol last"></div>
+      {% else %}
+        <div class="onecol"></div>
+        <div class="tencol">
+          <a href="/">
+            <h1>Alex Muller</h1>
+          </a>
+        </div>
+        <div class="onecol last"></div>
+      {% endif %}
+    </header>
+    
+    <div class="row">
+      <div class="onecol"></div>
+      <div class="tencol">{{ content }}</div>
+      <div class="onecol last"></div>
+      
+    </div>
+    
+    <!--<footer class="row">
+      <p>By Alex Muller</p>
+    </footer>-->
+    
+  </div>
+</body>
+
+<!-- License: Creative Commons Attribution 3.0
+     Mostly, do what you want
+     Try not to be a dick about it -->
+
+<!-- {% render_time Page created:%}
+     by Jekyll, a static site generator
+     It's fast <3 -->

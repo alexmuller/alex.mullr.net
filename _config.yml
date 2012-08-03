@@ -1,0 +1,7 @@
+auto: true
+categorydir: /blog/category
+tagdir: /blog/tag
+blogdir: /blog
+permalink: /blog/:year/:month/:title/
+markdown: rdiscount
+exclude: ["readme.markdown"]

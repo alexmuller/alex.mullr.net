@@ -1,0 +1,83 @@
+---
+date: '2008-09-09 10:15:59'
+layout: blog_2009
+slug: email
+status: publish
+title: Email
+wordpress_id: '192'
+categories:
+- technology
+tags:
+- email
+- gmail
+- school
+- university
+---
+
+Email is really important to me, especially at the moment - I'm going to be
+moving a fair bit over the next few months, but my email can stay in one place
+(the cloud, if you don't cringe every time you hear that). Like just about
+every geek, I'm in love with what Google have achieved with Gmail. The
+simplicity, while at the same time managing to offer every feature I could
+need along with bucket loads of storage (all for free) is amazing.
+
+[![Gmail](http://s3.amazonaws.com/alexmuller/static/blog/2008-09-09-gmail.png)](http://s3.amazonaws.com/alexmuller/static/blog/2008-09-09-gmail.png)
+
+This one is a screenshot of the webmail system implemented at York University at the moment:
+
+[![Yorkmail](http://s3.amazonaws.com/alexmuller/static/blog/2008-09-09-yorkmail.png)](http://s3.amazonaws.com/alexmuller/static/blog/2008-09-09-yorkmail.png)
+
+Wow. While I'm sure there were reasons for using this software, I'd be curious
+to know what advantages it offers over MS Exchange Server or Google Apps.
+Let's be honest, it's not as pretty as either of them.
+
+* What happens when I click on the sender? Does it start a new email addressed to them, or open the one in the inbox?
+* Why does the subject truncate, leaving a whole load of blue space?
+* Why isn't the time received displayed?
+* Where's the calendaring functionality offered by both Google and Microsoft?
+* Why do I only get 30MB of storage compared to Gmail's 7 gigabytes?
+
+One thing that really concerns me is whether I'll be able to hang onto my
+email for years to come. I'm a complete
+[hoarder](http://alex.mullr.net/blog/2008/07/memories/), so I have this
+irrational urge to want to keep every message received... which is why Gmail
+appeals so much.
+
+For the last four years, I've had all my email from my school redirected to my
+'personal' Gmail account. Having left school, I'm over the moon that I still
+have 524 emails about crap like my A Level choices. You won't understand this
+unless you're stupidly crazy-obsessive like me, but just to have the ability
+to be able to read any of that is great. I haven't even started at York yet
+and I've already set up redirection using their online IT account system; I
+don't want to leave the university and lose four years worth of correspondence
+with professors and friends.
+
+What's the absolute worst case scenario right now? That Google goes bump, or
+decides it can't be arsed to keep Gmail ticking along anymore, but something
+tells me [that won't
+happen](http://finance.google.com/finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=maximized&chdeh=0&chdet=1220918920878&chddm=398429&q=NASDAQ:GOOG&ntsp=0)
+just yet. This is an issue that's going to become **even** more important than
+it is right now: the ability for users to extract their data from a service
+and move somewhere else. Someone clever already took the idea and [gave it a
+name](http://www.dataportability.org/).
+
+### Comments ###
+
+By [Kevin Spencer](http://kevinspencer.org) on 09 September 2008 at 20:07:
+
+> Because I want to have access to my email from more than one computer, I have
+> used Gmail as my sole email client for a number of years now.  I used to have my
+> mail forwarded until they added to ability to pull it directly off my mail
+> server.  Love that feature.
+> 
+> The other thing that Gmail is amazing at is spam filtering.  Wow, you only have
+> 1 message in your spam folder?  My spam folder count is currently 11416.  Mind
+> you I don't hide or obfuscate my email address anywhere anymore.  Gmail does
+> such a good job a spam filtering I literally don't see any in my inbox ever.
+
+By [Alex Muller](http://alex.mullr.net/blog/) on 09 September 2008 at 20:56:
+
+> I don't know how people survive with desktop email anymore. The most spam I've
+> ever had is about six in a day, but I've been quite careful with this address
+> (though I realised it is all over the web in pixels, so I might as well have
+> left it in the image above).

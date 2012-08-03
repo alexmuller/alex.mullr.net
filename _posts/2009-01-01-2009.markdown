@@ -1,0 +1,23 @@
+---
+date: '2009-01-01 16:48:36'
+layout: blog_2009
+slug: '2009'
+status: publish
+title: '2009'
+wordpress_id: '301'
+categories:
+- life
+tags:
+- design
+- life
+---
+
+Happy New Year all!
+
+Seeing as New Year's Day is a quiet one in my house, I thought it'd be worth
+doing a little bit of work on the blog. New year, and a few tweaks to the way
+it looks.
+
+[![New Blog](http://alexmuller.s3.amazonaws.com/static/blog/2009-01-01-newblog.png)](http://alexmuller.s3.amazonaws.com/static/blog/2009-01-01-newblog.png)
+
+Have a great day, week, month and year. All the best.

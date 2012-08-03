@@ -1,0 +1,19 @@
+---
+date: '2008-06-29 09:45:41'
+layout: blog_2008
+slug: done
+status: publish
+title: I'm Done
+wordpress_id: '113'
+categories:
+- life
+---
+
+Yep, finished - exams, school, and more importantly, properly moving this site
+over to [NearlyFreeSpeech](https://www.nearlyfreespeech.net/). Hopefully it's
+all working fine (seems to be from my end) but if you notice any weirdness,
+please leave a comment somewhere or send me an email.
+
+Thanks, and have a good Summer,
+
+Alex

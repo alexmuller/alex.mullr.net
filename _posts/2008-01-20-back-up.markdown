@@ -1,0 +1,66 @@
+---
+date: '2008-01-20 20:41:47'
+layout: blog_2008
+slug: back-up
+status: publish
+title: Back. Up.
+wordpress_id: '87'
+categories:
+- technology
+---
+
+**Consider this a [PSA](http://en.wikipedia.org/wiki/Public_service_announcement).**
+
+If you're not backing up your computer, for the love of _*insert preferred
+religious figure*_ do it now. Seriously, bookmark this or something, go do it,
+and come on back. The Internet will still be exactly where you left it.
+
+Jeez, c'mon - rumour (read: twitter) has it that
+[adam2z](http://adam2z.com/blog/), a creative guy, isn't backing up his stuff.
+What the hell is this? It makes me cringe knowing that a simple hard drive
+failure would screw over so many hours of work.
+[Buy](http://www.ebuyer.com/cat/Hard-Drives/subcat/External-Desktop-Drives) an
+external hard drive, plug it in, and at the **very** least, drag your stuff
+over to it. Move on to more complicated solutions like offsite or bootable if
+you can be bothered, but do something. Cost can't be blamed anymore - if you
+can afford a computer (the absolute cheapest of which is £300), you can afford
+a £60 external hard drive.
+
+What makes me really nervous is that there are seriously simple "consumer"
+solutions like Apple's [Time
+Machine](http://www.apple.com/macosx/features/timemachine.html), but even the
+computer-savvy people I know aren't doing anything. How does the rest of the
+world stand a chance?
+
+### Comments ###
+
+By [Chris N](http://www.lows.org.uk) on 21 January 2008 at 00:52:
+
+> Hard Drive failure isn't always the end of the world; there's a fair amount of
+> software solutions  (SpinRite especially is meant to work really well) and if
+> you're really hard-core, even a completely dead hard-drive can sometimes be
+> hacked into to get spinning again (if only for a while). But yes, on the whole,
+> backups are generally a good practice.
+
+By [adam2z](http://adam2z.com/blog) on 21 January 2008 at 02:43:
+
+> you can link it! ive unprotected for a reason.
+> http://twitter.com/adam2z/statuses/621213602
+> 
+> an external hdd is on my 'to buy' list. as long as i can use time machine and
+> use it as a regular media dump. which im sure i can now that ive written it.
+> 
+> oh and this might aggravate you beautifully. http://www.smashourstuff.com/
+
+By [William M](http://www.dolphonia.co.uk) on 21 January 2008 at 08:17:
+
+> I really need to back-up my USB key but do I? No because of the inbuilt phobia
+> of the effort required to back up.
+
+By [Alex Muller](http://alex.mullr.net/blog/) on 02 February 2008 at 22:39:
+
+> **Adam:** Cheers, and that site makes me cringe :)
+> 
+> Plus, sorry for only just noticing these (and thanks to Chris for the tip...)
+> 
+> Pretty rubbish of me on my own site, I know

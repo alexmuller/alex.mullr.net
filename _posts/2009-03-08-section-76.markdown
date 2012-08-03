@@ -1,0 +1,49 @@
+---
+date: '2009-03-08 19:28:20'
+layout: blog_2009
+slug: section-76
+status: publish
+title: Section 76
+wordpress_id: '352'
+categories:
+- life
+tags:
+- law
+- london
+- photography
+- uk
+---
+
+Section 76 of the Counter-Terrorism Act 2008 - introduced a few weeks back -
+is very, very interesting. Essentially, it allows anyone taking pictures of
+police officers (or members of the armed forces) to be arrested if there is
+some any kind of possibility that the photographs will be used in the
+preparation of an act of terrorism.
+
+Obviously, this causes issues with what police officers now have the power to
+do. So I've decided that it's probably worth finding out what the people on
+the ground actually think, in the ineffectual, time-consuming way that only a
+student can: asking them.
+
+So today, I decided to take the first step. Knowing that this could, in fact,
+be totally painful and I could be arrested on the spot for anything (wasting
+police time?), I was pleasantly surprised. The policewoman I spoke to was very
+well-informed about the new law, and her point of view (from what I could tell
+with two minutes of talking to her) was reassuring. I asked her whether she'd
+stop a journalist taking photos, to which her reply was an instantaneous "no,
+because they have the right to."
+
+Yes, she is only one person; there are well over 31,000 police constables in
+London^1 and countless more across the UK. Yes, it clearly would've been better
+if the law hadn't come about to start with. And yes, Gordon Brown's response
+as quoted in the fourth paragraph of the [appropriate Wikipedia
+section](http://en.wikipedia.org/w/index.php?title=Counter-Terrorism_Act_2008&oldid=275209634%23Photographs_of_police_officers_in_public_places)
+does make me want to bang my head against the wall and scream. But I'm still
+reserving judgement for now; it doesn't seem to be nearly as bad as it could
+be.
+
+ 1. [New campaign warns criminals that police numbers are
+rising](http://www.london.gov.uk/view_press_release.jsp?releaseid=1657) from
+_london.gov.uk_, March 2003 and [Metropolitan Police
+Service](http://en.wikipedia.org/w/index.php?title=Metropolitan_Police_Service&oldid=275706154)
+from _Wikipedia_, March 2009

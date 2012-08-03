@@ -1,0 +1,26 @@
+---
+date: '2007-09-03 01:31:26'
+layout: blog_2007
+slug: cranky
+status: publish
+title: Cranky
+wordpress_id: '26'
+categories:
+- mac
+- technology
+---
+
+It's half one in the morning, so the obvious thing to do was to post about how
+much I want to sleep…
+
+Firstly: PowerPoint for the Mac is a pile of steaming horribleness - I can't
+find a way (right now at least) to make it do a presentation on my widescreen
+laptop... so I'm using Keynote, which I don't know half as well - though the
+presentation doesn't look half bad
+
+Secondly: Facebook has now been encoding my video for the last two hours -
+that would be fine, except that this is a 1MB, 20 second cameraphone clip...
+hardly HD taxing
+
+**Edit:** Thirdly: Wordpress just screwed up all the paragraph formatting on
+this, so I had to fix it... why now???

@@ -1,0 +1,83 @@
+---
+date: '2008-11-09 20:04:24'
+layout: blog_2009
+slug: the-shell
+status: publish
+title: The Shell
+wordpress_id: '269'
+categories:
+- education
+- technology
+tags:
+- linux
+- script
+- university
+---
+
+Shell scripting is really pretty good fun. I'm nowhere near claiming to be an
+expert (hell, I've been doing it for about three weeks now), but I kind of
+feel like I'm getting somewhere. Here's some stuff I've been messing around
+with, hopefully accompanied by some clear explanations that, if nothing else,
+will help me get my head around it a little better. I'm playing with my chat
+logs because I'm obsessed with stats (hopefully you've figured that out by now).
+
+### Redirecting output
+
+One of the most simple things, but it bears noting down. You can redirect the
+output of the bash shell by using the greater than symbol (`>`). Let's build
+it up:
+
+    % ls
+
+Will list all the files and folders in directory.
+
+    % ls -R
+
+Applies the recursive `-R` switch, which will list all the files and folders,
+as well as any files inside any folders.
+
+    % ls -R > output_list.txt
+
+Now we get on to the redirecting output bit: the `>` part followed by a
+filename will take the output and put it in the file you named. [Here's the
+output](http://s3.amazonaws.com/alexmuller/static/blog/2008-11-09-shell-list.txt)
+- not that you care, or anything...
+
+### Grep
+
+Grep is something different: a command for searching, basically. I'm going to
+use it with the file that was created above in order to make it more readable.
+
+    % grep hello example.txt
+
+Will search for (and print) the lines containing "hello" in the file text file
+"example". Clearly this is a pretty basic use of the tool, but it works. To
+get a bit more complicated:
+
+    % grep .chatlog output_list.txt > filtered_list.txt
+
+Will print all the lines in the output_list file that contain the phrase
+".chatlog", and save them to the filtered_list file.
+
+    % egrep .chatlog$ output_list.txt > filtered_list.txt
+
+What's changed? The egrep just tells grep to apply the `-e` flag, which will
+make it use regular expressions for searching. I haven't bothered trying to
+understand these. For me, it's only to add the `$` sign to the end of the
+string to indicate it should only search for that at the end of a line.
+[Here's the
+output](http://s3.amazonaws.com/alexmuller/static/blog/2008-11-09-shell-filtered.txt)
+from the second part. Much easier to read, much easier to do stats on/with...
+
+### There you go
+
+Hopefully that helps someone understand something a little better. If I've got
+something wrong, let me know please. I might report back if I can find it in
+me to manipulate the text file a little bit.
+
+### Comments ###
+
+By [Farhan Mannan](http://disinformatics.com) on 09 November 2008 at 20:29:
+
+> For a long time, I tried to muster the motivation to learn stuff like this.
+> Because of that stupid Yellow Dog Linux thing, I got my wish...

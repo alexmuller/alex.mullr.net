@@ -1,0 +1,43 @@
+---
+date: '2010-01-03 18:40:02'
+layout: blog_2010
+slug: 0-50-megabit
+status: publish
+title: 0-50 Megabit
+wordpress_id: '582'
+categories:
+- technology
+tags:
+- broadband
+- history
+- technology
+- uk
+- web
+---
+
+![Broadband Speed Chart](http://alexmuller.s3.amazonaws.com/static/blog/2010-01-03-megabit-chart.png)
+
+Our broadband speed has looked like this for the last ten years. Here’s hoping
+we get to 50Mbps within the next year or two - and who knows where we’ll be in
+another ten years.
+
+Here’s where we’re going at the moment:
+
+* BT is saying that 40% of homes will have the ability to have a 100Mbps
+  connection by the 2012 Olympics:
+  [GigaOM](http://gigaom.com/2009/12/21/bt-hopes-to-fast-track-fiber-broadband/)
+* It’s possible to get 50Mbps from Virgin Media at the moment, for £30-£40 per
+  month
+* Virgin promise 100Mbps by 2010:
+  [TechRadar](http://hcc.techradar.com/blogs/team+hcc/virgin+media+says+it+will+launch+100mbps+broadband+2010+years+bt+can+compete+25+03+09)
+
+### Comments ###
+
+By [Jalada](http://jalada.co.uk) on 03 January 2010 at 19:49:
+
+> Wish I had 10mbit broadband...anywhere. Don't even get it in York :(
+
+By [Michael Henley](http://www.michaelhenley.co.uk) on 04 January 2010 at 22:46:
+
+> My graph matches yours until 2005 and then flatlines... VM 50MB is v tempting
+> right now!

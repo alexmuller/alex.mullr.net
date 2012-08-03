@@ -1,0 +1,45 @@
+---
+date: '2007-08-29 20:43:59'
+layout: blog_2007
+slug: rubbish
+status: publish
+title: Rubbish
+wordpress_id: '23'
+categories:
+- life
+---
+
+![Junk Mail](http://mullr.net/images/wordpress/2007/junk_mail.jpg)
+
+Today was a fantastic day - I got my first piece of actual junk mail in the
+post, which meant I could do something I first [read
+about](http://www.thebestpageintheuniverse.net/c.cgi?u=junk_the_junk) from
+Maddox (while I'm talking about him, just finished his book - [The Alphabet of
+Manliness](http://en.wikipedia.org/wiki/The_Alphabet_of_Manliness) - and it's
+the funniest thing I've read in a long time).
+
+The idea is simple: you take a prepaid envelope that a company sends you, fill
+it full of other rubbish (Maddox uses coupons) and post it back to them. The
+end result is that they pay for the postage going back to them, eventually
+dissuading them from sending this stuff out. I know I have too much time at
+the moment, but I'm going to keep doing this in the hope that one day they
+might stop.
+
+To name names, as I'm feeling a little bitter - Haymarket Media Group sold my
+address from a magazine subscription, and I received advertising from Bose and
+Hiscox home insurance.
+
+### Comments ###
+
+By [PhotoSam](http://www.photosam.shutterchance.com/) on 30 August 2007 at 20:41:
+
+> if only the same rules applied for spam (sob)…
+
+By [Alex](http://mullr.net/) on 30 August 2007 at 21:09: 
+
+> I do try and report some spam through SpamCop.net, just because I’m only
+> getting four or five a day at the moment, but I don’t know if that actually
+> does anything
+> 
+> Spam will have to stop eventually – I don’t know how or when, but it has to go
+

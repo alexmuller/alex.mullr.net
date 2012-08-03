@@ -1,0 +1,34 @@
+---
+date: '2010-01-06 10:52:10'
+layout: blog_2010
+slug: flash
+status: publish
+title: Flash
+wordpress_id: '588'
+categories:
+- technology
+tags:
+- adobe
+- development
+- flash
+- online
+- web
+---
+
+![The Roundhouse’s site](http://alexmuller.s3.amazonaws.com/static/blog/2010-01-06-roundhouse.png)
+
+If you’re a brand strategy/web development/whatever we’re calling it today
+company and your homepage (and therefore, my first impression of your company)
+looks like this, please change it. Like, right now.
+
+(I use the very excellent and very open source
+[ClickToFlash](http://rentzsch.github.com/clicktoflash/) by Jonathan
+Rentzsch.)
+
+### Comments ###
+
+By [Kevin Spencer](http://kevinspencer.org) on 06 January 2010 at 16:19:
+
+> And having an all Flash site isn't going to make your iPhone users very happy
+> either. Noted by [Sean Bonner](http://www.flickr.com/photos/seanbonner/4235686406/)
+> the other day ;-)

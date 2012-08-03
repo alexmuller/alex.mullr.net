@@ -1,0 +1,30 @@
+---
+date: '2007-12-25 17:03:20'
+layout: blog_2008
+slug: christmas-20
+status: publish
+title: Christmas 2.0
+wordpress_id: '83'
+categories:
+- life
+---
+
+Happy Christmas to everyone out there - honestly, I've never had a 25th
+December where the web is used so much, with greetings over Facebook and
+instant messaging springing to mind… anyway, before I get back to the absolute
+awesomeness of the entire family crammed into a room that really isn't big
+enough to hold them, the Christmas Wikipedia article actually made me burst
+out laughing this morning:
+
+![christmas_wikipedia.png](http://alex.mullr.net/blog/wp-content/uploads/christmas-wikipedia.png)
+
+> "This article documents a current event. Information may change
+> rapidly as the event progresses."
+
+Merry Christmas, and a very happy New Year.
+
+### Comments ###
+
+By [Kevin Spencer](http://kevinspencer.org) on 25 December 2007 at 17:16:
+
+> Merry Christmas to you sir.

@@ -1,0 +1,20 @@
+---
+date: '2007-09-21 10:46:23'
+layout: blog_2007
+slug: browsing
+status: publish
+title: Browsing
+wordpress_id: '33'
+categories:
+- technology
+---
+
+Looking round the computer room, it's a shame to see the number of people
+still using IE6 instead of the latest version of Firefox - either they don't
+know it's installed here, or they just don't use it.
+
+Unfortunate that the only alternative is Internet Explorer 6 - **IE7**, while
+still far from perfect, is at least better.
+
+And most of all, I pity the poor people who don't have tabbed browsing -
+honestly can't remember how I coped before it…

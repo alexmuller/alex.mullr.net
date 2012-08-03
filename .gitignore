@@ -1,0 +1,5 @@
+_site/
+
+# No need for old images and themes to be versioned
+blog/wp-content/
+images/

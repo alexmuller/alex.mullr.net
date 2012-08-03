@@ -1,0 +1,68 @@
+---
+date: '2007-10-05 01:06:09'
+layout: blog_2007
+slug: fowa
+status: publish
+title: FOWA
+wordpress_id: '39'
+categories:
+- education
+- life
+- technology
+---
+
+More detail to come (I hope) but not before a list of the fantastic people we
+met yesterday at the ExCel Centre:
+
+* Thomas Vander Wal, [vanderwal.net](http://www.vanderwal.net/) - thanks again
+  to Thomas for coming and giving his speech **Going Social** at school last
+  Tuesday. We met him again at FOWA and spoke about the use of the term
+  **user** online (example: Last.fm's profile address when compared to Flickr)
+  as well as Jon Hicks and his [Rissington
+  Podcast](http://rafrissington.wordpress.com/).
+* Christian Van Der Henst, [Maestros del Web](http://maestrosdelweb.com/) -
+  fantastic story: he took [this
+  picture](http://flickr.com/photos/cvander/1475730043/) of us and posted it
+  to Flickr; we found the picture, commented on it, and then met him at the
+  conference.
+* Andy Mitchell & George Palmer, [meecard](http://meecard.com) - nice new
+  service (registration currently closed - set to open soon) that aggregates
+  all your social networks or contact information and puts it in one nice
+  digital card.
+* Gavin O'Carroll, [Rememble.com](http://rememble.com) - _a 'washing line' for
+  your digital bits and pieces_ - the only way to understand it is to go and
+  sign up…
+* Wouter Broekhof, [Wakoopa](http://wakoopa.com) - these guys are just
+  fantastic. Privacy concerns aside, go and sign up for an account and have a
+  try. And maybe read through their [Your
+  Privacy](http://wakoopa.com/about/privacy) page, especially important as
+  they expand to tracking web apps.
+* Dave Rooney, [Just Routes](http://justroutes.com/) - nice public transport
+  journey planner, though currently only works in Dublin. Would be fantastic
+  to see it expanded to London, but understand their reasons for not doing so.
+
+### Comments ###
+
+By [cvander](http://www.maestrosdelweb.com/) on 5 October 2007 at 11:36:
+
+> It was nice to meet you guys.. Keep up the good work.
+
+By [Preoccupations](http://preoccupations.org/) on 6 October 2007 at 21:58:
+
+> [FOWA…](http://www.preoccupations.org/2007/10/fowa.html)
+> 
+> I didn’t go to this latest get-together (I did make the March 07 meet: see
+> here), but we sprung five final year students from school for the day … and I
+> think they had a ball. Alex’s FOWA photoset is…
+
+By [Will Morgan](http://www.illmorgan.com/) on 17 September 2008 at 0:17:
+
+> Are you going this year?
+
+By [Alex Muller](http://alex.mullr.net/blog/) on 17 September 2008 at 0:19:
+
+> One better, I got myself a student conference ticket for £50! I’ll
+> post something about it before the actual time, now I think about
+> it…
+> 
+> How about you?

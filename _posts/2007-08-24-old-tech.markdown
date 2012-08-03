@@ -1,0 +1,41 @@
+---
+date: '2007-08-24 19:06:23'
+layout: blog_2007
+slug: old-tech
+status: publish
+title: Old Tech
+wordpress_id: '21'
+categories:
+- technology
+tags:
+- technology
+---
+
+<img src="http://mullr.net/images/wordpress/2007/inspiron.jpg" title="Dell Inspiron" alt="Dell Inspiron" align="right" hspace="12" vspace="12" />
+
+Spending a week with people who aren't completely insane over technology has
+been refreshing. They don't mind giving me their laptop to use, whereas I'm
+crazy to the point that I can hardly leave people alone with my lovely shiny
+new machine.
+
+The family computer here is a Dell Inspiron which is at least four or five
+years old, reinforcing (to me at least) something that Leo Laporte mentions on
+his US radio show, [The Tech Guy](http://techguylabs.com/), relatively often:
+you don't **need** a new machine, you want a new machine because the old one
+looks clunky. This Inspiron still runs XP (albeit slowly) and Office, and can
+surf the web fine. To be honest, I'm surprised that some part of it hasn't
+given out yet, but I suppose it's only a matter of time.
+
+And I have to look on the bright side – it means my MacBook looks even
+prettier than normal.
+
+[Photo](http://flickr.com/photos/robertrazrblog/91643907/) by [robertrazrblog](http://flickr.com/photos/robertrazrblog/)
+on Flickr (creative commons [license](http://creativecommons.org/licenses/by-nc-sa/2.0/))
+
+### Comments ###
+
+By [adam2z](http://www.adam2z.com/) on 27 August 2007 at 12:30:
+
+> i was running a four year old machine all summer. it was perfectly usable…
+> once i removed windows and ran ubuntu.
+

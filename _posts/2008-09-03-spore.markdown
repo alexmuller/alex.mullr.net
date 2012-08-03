@@ -1,0 +1,37 @@
+---
+date: '2008-09-03 23:30:06'
+layout: blog_2009
+slug: spore
+status: publish
+title: Spore
+wordpress_id: '155'
+categories:
+- mac
+- technology
+---
+
+Wednesday afternoon, [Arnie](http://twitter.com/avalentine/),
+[Michael](http://michaelstech.wordpress.com/) and I saw a talk by Will Wright
+in the Regent Street Apple Store. Will is the creator of what EA is
+publicising as "the most anticipated game of 2008" (perhaps a stretch, but
+it's definitely a line for the ads to use), **Spore**. He spoke about the
+creation of the game, its reception so far and gave a quick demo.
+
+I would quote what he said, but I didn't have my journalist hat on at the time
+(read: couldn't be arsed to take notes), so I'll have to paraphrase. His
+development group took cues from (and this is a quote) "Facebook and Myspace"
+when designing the community and social interaction features of the game. In
+other words, God help us all. Disclaimer: God may or may not exist, depending
+on your preference du jour.
+
+Judging by the figures he gave, Spore Creature Creator really has taken off.
+I'm remembering numbers like there being 1.5 million species on Earth, and so
+far Spore users have created 3.8 million. There's a great graph he used that
+you can see [on Flickr](http://flickr.com/photos/ed209uk/2825171896/), which
+kind of shows the boom. Apparently what God managed in seven days, Spore users
+did in eighteen. And therefore they are 38% God.
+
+Spore is out this coming Friday (the 5th September) and I'm going to be doing
+my best to be getting my hands on a copy. As is my brother, but only after
+seeing what the [Spore Penis Monster](http://youtube.com/watch?v=vPKvwd9vJZY)
+can do.

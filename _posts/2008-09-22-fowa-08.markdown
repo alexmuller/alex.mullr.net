@@ -1,0 +1,31 @@
+---
+date: '2008-09-22 20:25:00'
+layout: blog_2009
+slug: fowa-08
+status: publish
+title: FOWA '08
+wordpress_id: '228'
+categories:
+- life
+- technology
+tags:
+- conference
+- diggnation
+- fowa
+- fowa08
+- london
+---
+
+![](http://s3.amazonaws.com/alexmuller/static/blog/2008-09-22-fowa-badge.png)
+
+I'm lucky to be going to the Future of Web Apps conference this October... and
+unlike [last year](http://alex.mullr.net/blog/2007/10/fowa/), I'm there on a
+proper student ticket this time. That means I get to go see talks from the
+likes of Digg, Google, Dopplr, Rev3, Twitter, Sun, Amazon, and Facebook (deep
+breath), as well as some from people you might have heard of before...
+Calacanis, Rose and Zuckerburg? I need to take a look through the schedule
+properly and think about which I'm going to go and see.
+
+In a simply fantastic move, Carsonified (the gorgeous people organising it)
+just put 50 more student tickets up for grabs, so hopefully
+[@avalentine](http://twitter.com/avalentine) can come along for a bit.
