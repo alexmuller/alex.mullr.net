@@ -4,7 +4,7 @@ module Jekyll
     def initialize(site, base, dir, category)
       @site = site
       @base = base
-      @dir = dir
+      @dir = dir.downcase
       @name = 'index.html'
 
       self.process(@name)

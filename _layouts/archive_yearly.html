@@ -3,7 +3,7 @@ layout: main
 body: archive
 ---
 
-<p>xzz
+<p>
 	{% for year in (2007..2012) reversed %}
 		<a href="../{{ year }}/">{{ year }}</a>{% if forloop.last == false %} &bull; {%endif %}
 	{% endfor %}
@@ -13,7 +13,7 @@ body: archive
 
 {% for m in (1..12) reversed %}
 	{% if page.collated_posts[page.year][m] %}
-		<h3>{{ m | date_to_month }}</h3>
+		<h2>{{ m | date_to_month }}</h2>
 		<ol>
 		{% for d in (1..31) reversed %}
 			{% if page.collated_posts[page.year][m][d] %}

@@ -1,0 +1,4 @@
+Sitemap: http://alex.mullr.net/sitemap.xml
+User-agent: *
+Disallow: /social/
+Disallow: /webdev/

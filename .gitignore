@@ -1,5 +1,11 @@
-_site/
+# Jekyll generated output
+/_site/
 
-# No need for old images and themes to be versioned
-blog/wp-content/
-images/
+# Sass
+.sass-cache/
+
+# No need for old images and themes and other junk to be versioned
+/blog/wp-content/
+/images/
+/social/
+/webdev/
