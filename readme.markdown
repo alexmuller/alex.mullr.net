@@ -9,18 +9,20 @@ that renders [alex.mullr.net][am].
 
 Includes some `.htaccess` files (for Apache, obviously).
 
-## Building ##
+## Development ##
 
 Run:
 
-    jekyll --auto --server
+    $ jekyll --auto --server
 
 ...and the site will be available at `localhost:4000`.
 
 ## Deploying ##
 
-Run:
+To just update existing files and add new ones:
 
-    rsync --something-something
+    $ rake rsync:refresh
 
+To delete everything and upload a fresh compiled site:
 
+    $ rake rsync:scratch

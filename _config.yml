@@ -1,7 +1,17 @@
-auto: true
+auto: false
 categorydir: /blog/category
 tagdir: /blog/tag
 blogdir: /blog
 permalink: /blog/:year/:month/:title/
 markdown: rdiscount
-exclude: ["readme.markdown"]
+
+include:
+  - .htaccess
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - readme.markdown
+
+rdiscount:
+  extensions: [smart]
