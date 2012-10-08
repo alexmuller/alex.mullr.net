@@ -7,7 +7,7 @@ title: Blog
 <a href="{{ post.url }}" class="block">
   <div id="featured-post">
     <h1>{{ post.title }}</h1>
-    <p class="date">{{ post.date | date_to_long_string }}</p>
+    <abbr class="timeago" title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_long_string }}</abbr>
     <p class="description">{{ post.description }}</p>
   </div>
 </a>
@@ -20,7 +20,7 @@ title: Blog
       <li class="fourcol {% cycle 'first', 'middle', 'last' %}">
         <div class="postmeta">
           <h2>{{ post.title }}</h2>
-          <p class="date">{{ post.date | date_to_long_string }}</p>
+          <abbr class="timeago" title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_long_string }}</abbr>
           <p class="description">{{ post.description }}</p>
         </div>
       </li>
@@ -33,10 +33,18 @@ title: Blog
   {% for post in site.posts limit: 13 offset: 7 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="date">({{ post.date | date_to_string}})</span>
+      <span>(<abbr class="timeago" title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_string }}</abbr>)</span>
     </li>
   {% endfor %}
     <li>
       &hellip;and there's <a href="archive/">a complete archive</a> available if you're looking for even older posts.
     </li>
 </ol>
+
+{% include timeago.html %}
+
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+    jQuery("abbr.timeago").timeago();
+  });
+</script>
