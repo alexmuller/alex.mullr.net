@@ -34,6 +34,6 @@ I love the way that our blog looks and works. It's an Octopress-based static
 site. [Bel][bel] created designs that look awesome, and [David][jalada] and I
 set the thing up.
 
-[postlink]: http://labs.newsint.co.uk/blog/2012/11/designing-for-receipt-printers/
+[postlink]: http://labs.newsint.co.uk/blog/2012/12/designing-for-receipt-printers/
 [bel]: https://twitter.com/BeJaiG
 [jalada]: http://jalada.co.uk/
