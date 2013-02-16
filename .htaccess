@@ -6,8 +6,14 @@
 
 Options -Indexes
 
-ErrorDocument 403 /error/403.php
-ErrorDocument 404 /error/404.php
-ErrorDocument 500 /error/500.php
+ErrorDocument 403 /error/403.html
+ErrorDocument 404 /error/404.html
+ErrorDocument 500 /error/500.html
 
-redirect 301 /timetable.png http://alex.mullr.net/calendar/
+Redirect 301 /timetable.png http://alex.mullr.net/calendar/
+
+Redirect 301 /cv/2009-07-06-Muller-CV.pdf http://alex.mullr.net/cv/
+Redirect 301 /cv/2011-01-17-Muller-CV.pdf http://alex.mullr.net/cv/
+Redirect 301 /cv/2011-08-15-Muller-CV.pdf http://alex.mullr.net/cv/
+
+Redirect 301 /global/me.png https://secure.gravatar.com/avatar/d246cb5bf5f9a50983d63256a93f8751?s=61
