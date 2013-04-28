@@ -23,8 +23,6 @@ namespace :rsync do
   desc "Upload the compiled site to alex.mullr.net, deleting everything that is there already"
   task :scratch => "jekyll:rebuild" do
     system('rsync -avz --delete _site/ alexmuller@lighfe:/srv/www/alex.mullr.net')
-    system('scp .htaccess alexmuller@lighfe.mullr.net:/srv/www/alex.mullr.net/')
-    system('scp blog/feed/.htaccess alexmuller@lighfe.mullr.net:/srv/www/alex.mullr.net/blog/feed/')
   end
 
 end
