@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
-gem "directory_watcher"
+gem "jekyll", "~> 0.12.1"
 
-gem "jekyll-sass"
+gem "jekyll-assets"
+gem "sass"
+gem "uglifier"
 
 gem "rdiscount"
