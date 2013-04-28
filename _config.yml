@@ -8,6 +8,7 @@ markdown: rdiscount
 include:
   - .htaccess
 exclude:
+  - cv/muller_cv.tex
   - Gemfile
   - Gemfile.lock
   - Procfile

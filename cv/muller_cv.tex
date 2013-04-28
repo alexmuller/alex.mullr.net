@@ -1,0 +1,304 @@
+% Alex Muller - Curriculum Vitae
+%
+% LaTeX layout Copyright (C) 2004-2011 Jason R. Blevins
+% (with modifications)
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Fonts
+\usepackage[T1]{fontenc}
+\usepackage[urw-garamond]{mathdesign}
+
+% Name
+\def\name{Alex Muller}
+
+% Link colour and metadata
+\hypersetup{
+  colorlinks = true,
+  urlcolor = [rgb]{0.1,0.2,0.4},
+  pdfauthor = {\name},
+  pdfkeywords = {alexmuller, york, web, glaxosmithkline},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  left   = 0.8in,
+  top    = 0.8in,
+  right  = 0.8in,
+  bottom = 0.8in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+%\sectionfont{\rmfamily\mdseries\Large}
+%\subsectionfont{\rmfamily\mdseries\itshape\large}
+\sectionfont{\rmfamily\mdseries\LARGE}
+\subsectionfont{\rmfamily\mdseries\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% UK date and time
+% \usepackage{UKenglish}
+
+% Don't indent paragraphs...
+\setlength\parindent{0em}
+
+% ...but do space them a little more than normal
+\setlength{\parskip}{0.3em plus 0.15em minus 0.15em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+{\huge \name}
+
+\bigskip
+
+\begin{minipage}[t]{0.26\textwidth}
+  \textbf{Address} \\
+  9 Grosvenor Road \\
+  London, W4 4EJ \\
+  07525 370 388 \\
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  \textbf{Online} \\
+  \href{mailto:alex@mullr.net}{alex@mullr.net} \\
+  \href{http://alex.mullr.net/}{http://alex.mullr.net/} \\
+  \href{https://github.com/alexmuller}{https://github.com/alexmuller} \\
+\end{minipage}
+
+\section*{Profile and interests}
+
+I am very interested in the technical side of both the computing and
+communications industries and enjoy working on the user-facing design of
+software and systems (human-computer interaction). From my Computer Science
+course, I gained familiarity with fundamental concepts such as object-oriented
+programming, algorithms and data structures, and had experience writing
+Java and Python. From Mathematics I have developed an interest in statistical
+theory that has been with me since school, choosing half of my Maths modules
+to be related to probability and statistics.
+
+I am also interested in the creation of media including television, film and
+radio, as well as how technology is helping to distribute these kinds of
+content in new ways. I am passionate about using the web to enable free and
+open access to information, particularly through contributing to projects like
+Wikipedia and OpenStreetMap. Recently I have found myself increasingly
+interested in
+\href{http://alex.mullr.net/blog/2011/11/the-web-growing-up/}{preserving the
+history of the web} and considering issues like link rot.
+
+% Teaching? Mentoring? YSIS etc.
+
+\section*{Previous work and experience}
+
+% Further examples of my work and experience are available at
+% \href{http://alex.mullr.net/cv/}{http://alex.mullr.net/cv/}.
+
+\subsection*{Research and Development software engineer, News International (July 2012--)}
+
+\emph{Tools: Ruby on Rails, Haml, Sass, JavaScript, Heroku, Node.js}
+
+After graduating, I joined the small R\&D team at News International in
+London. Using a variety of tools (including Ruby and Node.js) I help create
+lightweight prototypes and proof-of-concept apps for \emph{The Sun}, \emph{The
+Times} and \emph{The Sunday Times}, as well as monitoring and maintaining some
+apps in production. My favourite project so far is a marketing campaign titled Feel
+Good Piñata, a Node.js app using WebSockets to provide a queueing system for
+users with authentication via Twitter and Facebook. I have experimented with
+responsive design as well as designing for different media such as receipt
+printers. More information is available at
+\href{http://labs.newsint.co.uk/}{labs.newsint.co.uk}.
+
+\subsection*{Python and front-end web developer, GlaxoSmithKline R\&D (July 2011--September 2011)}
+
+Over the summer between my industrial placement and final year at university I
+maintained an internal web application at GSK's Medicine Research Centre in
+Stevenage. The application was originally built predominantly using Python and
+JavaScript, and I was responsible for fixing bugs and adding new functionality
+as required.
+
+\subsection*{Web \& multimedia communications placement, GlaxoSmithKline (July 2010--July 2011)}
+
+During my placement year I worked on
+\href{http://www.gsk.com/}{GlaxoSmithKline's corporate website} as a member of
+their Global Media team. The placement involved writing HTML, CSS and
+JavaScript (primarily using jQuery) and working with non-technical
+stakeholders to understand and implement their requests. I was responsible for
+gathering information in preparation for a project to redesign the site, for
+example through interviewing users and creating surveys. A reference is
+available from \href{mailto:GSKUK.HR@acs-inc.com}{\mbox{GSKUK.HR@acs-inc.com}}.
+
+% mbox prevents hyphenation
+
+\subsection*{One Click Orgs (April 2010--)}
+
+OCO is an online service to help groups with their legal, decision making and
+membership structure. I regularly work over IRC and in person with other
+volunteer developers, committing Ruby on Rails, Haml and Sass code to the
+\href{https://github.com/oneclickorgs/one-click-orgs/}{OCO GitHub repository}.
+
+\subsection*{York Students in Schools (January 2009--February 2010)}
+
+I was involved with the York Students in Schools placement scheme, spending
+half a day each week at a local school to assist the teacher with activities
+and any computing issues or questions. I feel that the placement was useful in
+many respects, primarily because it greatly improved my explanatory and
+presentation skills.
+
+\subsection*{Web developer, Nouse (2008--2009) and Web designer, YSTV (2009--2011)}
+
+At university I became very involved with media societies, including the
+student newspaper Nouse and the television station YSTV. Redeveloping the
+newspaper's website was invaluable experience for working in a team,
+reinforcing obvious good practices such as detailed code commenting. YSTV has
+offered similar experiences, though there what I found most useful were the
+weekly ``station meetings'', where I was able to give opinions and be
+part of a group that makes decisions about the future of the station.
+
+\section*{Education}
+
+\subsection*{BSc Computer Science and Mathematics (with a year in industry), \\
+  University of York, 2008--2012}
+
+\begin{itemize}
+  \item \textit{Degree classification:} Second Class Honours, Division One (2:1)
+  \item \textit{Dissertation:}
+    \href{http://alex.mullr.net/blog/2012/03/constrained-optimisation-allocate-modules-york/}{
+      Allocating optional modules to University of York students
+    } (79\%)
+\end{itemize}
+
+My final-year project involved the creation of an application that allocates
+optional modules to students after collecting their preferences via a web
+interface. The creation of this application was supported by the University of
+York's University Teaching Committee.
+
+The project covered two broad areas of computer science; the construction of
+the web application (which included gathering requirements, database design,
+user experience, testing \& security), and performing the allocation based on
+students' preferences and factors like the number of students in a class,
+which is a constrained optimisation problem.
+
+The application was trialled in March 2012 by the Archaeology \& History
+departments and successfully allocated modules to 800 of their students. It is
+hoped that based on the success of this pilot, the University's IT Services
+will be able to offer the application to all departments in the 2013 academic
+year.
+
+A reference for this project is available from
+\href{http://www-users.cs.york.ac.uk/~jc/}{James Cussens}, Department of
+Computer Science.
+
+
+\medskip
+
+% \begin{small}
+%   Favourite modules:
+%   \begin{itemize}
+%     \item Probability Theory I (first year)
+%     \item Introduction to Group Theory (second year)
+%     \item Design of Interactive Systems (second year)
+%     \item Applied Probability (final year)
+%     \item Formal Languages and Automata (final year)
+%     \item Code Generation \& Optimisation (final year)
+%   \end{itemize}
+% \end{small}
+
+\begin{small}
+\begin{minipage}[t]{0.5\textwidth}
+
+\textit{Modules studied in the second year:}
+
+\begin{tabular}{ p{6cm} p{1cm} }
+  Theory of Computing                          \\ % & 48\% \\
+  Design of Interactive Systems                \\ % & 50\% \\
+  Logic Programming \& Artificial Intelligence \\ % & 51\% \\
+  Computer Graphics and Visualisation          \\ % & 43\% \\
+  Vector Calculus I                            \\ % & 54\% \\
+  Statistical Theory I                         \\ % & 14\% \\
+  Statistical Theory II                        \\ % & 55\% \\
+  Statistical Theory III                       \\ % & 62\% \\
+  Analysis I                                   \\ % & 47\% \\
+  Introduction to Group Theory                 \\ % & 67\% \\
+\end{tabular}
+
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+
+\textit{Modules studied in the final year:}
+
+\begin{tabular}{ p{6cm} p{1cm} }
+  Final-year project                 \\ % & 79\% \\
+  Algorithms for Graphical Models    \\ % & 74\% \\
+  Crypto, Attacks \& Countermeasures \\ % & 65\% \\
+  Code Generation \& Optimisation    \\ % & 83\% \\
+  Applied Probability                \\ % & 86\% \\
+  Introduction to Number Theory      \\ % & 72\% \\
+  Generalised Linear Models          \\ % & 59\% \\
+  Formal Languages and Automata      \\ % & 84\% \\
+  Bayesian Statistics                \\ % & 27\% \\
+\end{tabular}
+
+\end{minipage}
+\end{small}
+
+\subsection*{St Paul's School, London, 2003--2008}
+
+\begin{itemize}
+  \item \textit{A Level:} Computing (A), Mathematics (A), Physics (C)
+  \begin{small}
+    \item \textit{AS Level:} French (A)
+  \end{small}
+\end{itemize}
+
+\section*{Reference}
+
+\href{http://preoccupations.org/}{David Smith} \\
+Director of ICT, St Paul's School \\
+\emph{Contact details available on request} \\
+
+\medskip
+
+% Footer
+\begin{flushright}
+  \begin{footnotesize}
+    Latest version available at \url{http://alex.mullr.net/cv/} \\
+    This copy created \today
+  \end{footnotesize}
+\end{flushright}
+
+\end{document}

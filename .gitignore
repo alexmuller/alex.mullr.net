@@ -11,3 +11,6 @@
 /webdev/
 /lastfm/
 /style/
+
+# CV is built by LaTeX
+/cv/muller_cv.pdf
