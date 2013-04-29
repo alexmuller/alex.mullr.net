@@ -17,3 +17,8 @@ exclude:
 
 rdiscount:
   extensions: [smart]
+
+assets:
+  compress:
+    js:   uglifier
+    css:  sass

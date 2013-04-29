@@ -9,6 +9,9 @@ that renders [alex.mullr.net][am].
 
 Includes some `.htaccess` files (for Apache, obviously).
 
+Assets are handled (built and minified) by the `jekyll-assets` gem, required
+in `_plugins/ext.rb`.
+
 ## Development ##
 
 Run:

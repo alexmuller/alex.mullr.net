@@ -6,7 +6,6 @@ description: This is my to-do list for this site. It's probably not of interest 
 
 ## Jekyll ##
 
-- Sass instead of CSS
 - In `archive_yearly.html`, generate the list of years automatically
 - In `blog/index.html`, include "a few random ones from the archive"
 - Tags need to be lowercase URLs, e.g. York
@@ -20,3 +19,4 @@ description: This is my to-do list for this site. It's probably not of interest 
 
 - Google Analytics
 - RSS -> Feedburner (requires a "plain" template)
+- Sass instead of CSS
