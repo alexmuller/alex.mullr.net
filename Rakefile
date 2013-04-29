@@ -26,3 +26,23 @@ namespace :rsync do
   end
 
 end
+
+namespace :debug do
+
+  desc "Check all posts for build-breaking YAML syntax errors"
+  task :yaml do
+    # http://joshrendek.com/2012/08/fixing-psych-syntaxerror-when-using-jekyll/
+    require 'yaml'
+    begin
+      Dir.foreach("_posts").each do |f|
+        YAML.load_file(File.join("_posts/", f)) unless f.start_with? "."
+      end
+    rescue Psych::SyntaxError => error
+      puts "Uh oh! Problem with the YAML front matter in #{error.file}"
+      puts "  At line #{error.line}, column #{error.column}: #{error.problem}"
+    else
+      puts "The YAML front matter for your posts looks A-ok to me."
+    end
+  end
+
+end
