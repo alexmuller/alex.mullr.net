@@ -5,6 +5,7 @@ require 'date'
 module Jekyll
 
   class ArchiveIndex < Page
+
     def initialize(site, base, dir, type)
       @site = site
       @base = base
@@ -19,17 +20,19 @@ module Jekyll
       self.data['year'] = year.to_i
       month and self.data['month'] = month.to_i
       day and self.data['day'] = day.to_i
-      
+
       # Page title
       monthname = Date::MONTHNAMES[month.to_i]
       self.data['title'] = "#{monthname} #{year} archives"
+
+      self.data['list_of_years'] = self.list_of_years(site)
     end
-    
+
     def collate(site)
       collated_posts = {}
       site.posts.reverse.each do |post|
         y, m, d = post.date.year, post.date.month, post.date.day
-        
+
         collated_posts[ y ] = {} unless collated_posts.key? y
         collated_posts[ y ][ m ] = {} unless collated_posts[y].key? m
         collated_posts[ y ][ m ][ d ] = [] unless collated_posts[ y ][ m ].key? d
@@ -37,7 +40,11 @@ module Jekyll
       end
       return collated_posts
     end
-    
+
+    def list_of_years(site)
+      site.posts.map { |post| post.date.year }.uniq.sort.reverse
+    end
+
   end
 
   class ArchiveGenerator < Generator
@@ -69,7 +76,7 @@ module Jekyll
     def collate(site)
       site.posts.reverse.each do |post|
         y, m, d = post.date.year, post.date.month, post.date.day
-        
+
         self.collated_posts[ y ] = {} unless self.collated_posts.key? y
         self.collated_posts[ y ][ m ] = {} unless self.collated_posts[y].key? m
         self.collated_posts[ y ][ m ][ d ] = [] unless self.collated_posts[ y ][ m ].key? d

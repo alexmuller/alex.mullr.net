@@ -3,25 +3,27 @@ layout: main
 body: archive
 ---
 
-<p>
-	{% for year in (2007..2012) reversed %}
-		<a href="../{{ year }}/">{{ year }}</a>{% if forloop.last == false %} &bull; {%endif %}
-	{% endfor %}
-</p>
+{% if page.list_of_years %}
+  <ol id="list_of_years">
+    {% for year in page.list_of_years %}
+      <li><a href="../{{ year }}">{{ year }}</a></li>
+    {% endfor %}
+  </ol>
+{% endif %}
 
 <p>These are posts I wrote in {{ page.year }}.</p>
 
 {% for m in (1..12) reversed %}
-	{% if page.collated_posts[page.year][m] %}
-		<h2>{{ m | date_to_month }}</h2>
-		<ol>
-		{% for d in (1..31) reversed %}
-			{% if page.collated_posts[page.year][m][d] %}
-				{% for p in page.collated_posts[page.year][m][d] reversed %}
-					<li><strong>{{ p.date | date: "%d" }}</strong> <a href='{{ p.url }}'>{{ p.title }}</a></li>
-				{% endfor %}
-			{% endif %}
-		{% endfor %}
-		</ol>
-	{% endif %}
+  {% if page.collated_posts[page.year][m] %}
+    <h2>{{ m | date_to_month }}</h2>
+    <ol>
+      {% for d in (1..31) reversed %}
+        {% if page.collated_posts[page.year][m][d] %}
+          {% for p in page.collated_posts[page.year][m][d] reversed %}
+            <li><strong>{{ p.date | date: "%d" }}</strong> <a href='{{ p.url }}'>{{ p.title }}</a></li>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </ol>
+  {% endif %}
 {% endfor %}
