@@ -14,7 +14,7 @@ module Liquid
 
     # Convert the input string to one line by removing '\n'
     def one_line(input)
-      input.gsub(/\n/, " ")
+      input.gsub(/\n/, " ").strip
     end
 
   end
