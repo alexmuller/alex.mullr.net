@@ -41,10 +41,31 @@ title: Blog
     </li>
 </ol>
 
+<div id="random-post" style="display: none;">
+  <p>Or try this one&hellip; a random post from a long time ago!</p>
+  <a href="#">
+    <h2></h2>
+    <abbr class="timeago" title=""></abbr>
+  </a>
+</div>
+
 {% include timeago.html %}
 
 <script type="text/javascript">
-  jQuery(document).ready(function() {
-    jQuery("abbr.timeago").timeago();
+  var jekyllPosts = [];
+  {% for post in site.posts limit: 80 offset: 20 %}
+    jekyllPosts.push({"title": "{{ post.title }}", "url": "{{ post.url }}", "date": "{{ post.date | date_to_xmlschema }}"});
+  {% endfor %}
+
+  var randomPost = jekyllPosts[Math.floor(Math.random() * jekyllPosts.length)];
+
+  $(document).ready(function() {
+    $("#random-post a").attr("href", randomPost.url);
+    $("#random-post h2").text(randomPost.title);
+    $("#random-post abbr").text(randomPost.date);
+    $("#random-post abbr").attr("title", randomPost.date);
+    $("#random-post").show();
+
+    $("abbr.timeago").timeago();
   });
 </script>
