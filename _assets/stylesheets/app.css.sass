@@ -1,24 +1,60 @@
 //= require vendor/meyer
 
+@import "compass"
+
 /* http://chir.ag/projects/name-that-color/
 $biscay: #20406f
 $botticelli: #d0dae9
 $mineshaft: #333
 $shiraz: #a50827
 
-@import "compass"
+header
+  h1
+    line-height: 1em
+  a
+    text-decoration: none
 
 body
   background: $botticelli
   color: $mineshaft
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-size: 16px
+  margin: 1em
 
 h1, h2, h3, h4, h5, h6
   font-weight: bold
+  line-height: 1.2em
 
 h1
   font-size: 2em
+
+h2
+  font-size: 1.8em
+
+h3
+  font-size: 1.4em
+
+h4
+  font-size: 1.2em
 
 a
   color: $biscay
   &:visited
     color: darken($biscay, 4)
+  &:hover
+    color: $shiraz
+  &:active
+    color: darken($shiraz, 8)
+
+p
+  line-height: 1.3em
+  margin: 1em 0
+  max-width: 38em
+
+blockquote
+  color: lighten($mineshaft, 8)
+  margin-left: 1em
+
+ol, ul
+  li
+    line-height: 1.4em
