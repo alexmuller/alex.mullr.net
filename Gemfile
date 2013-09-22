@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 0.12.1"
+gem "jekyll", "1.2.1"
 
-gem "jekyll-assets", "~> 0.3.8"
-gem "compass"
-gem "sass"
-gem "uglifier"
+gem "jekyll-assets", "0.7.2"
+gem "compass", "0.12.2"
+gem "sass", "3.2.10"
+gem "uglifier", "2.2.1"
 
-gem "rdiscount"
+gem "rdiscount", "2.1.6"

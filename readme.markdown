@@ -14,17 +14,13 @@ in `_plugins/ext.rb`.
 
 ## Development ##
 
-Run:
-
-    $ jekyll --auto --server
-
-...and the site will be available at `localhost:4000`.
+Use `jekyll` from the command line to make the site available locally.
 
 ## Deploying ##
 
 To just update existing files and add new ones:
 
-    $ rake rsync:refresh
+    $ rake rsync:update
 
 To delete everything and upload a fresh compiled site:
 

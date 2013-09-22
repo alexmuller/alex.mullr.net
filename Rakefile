@@ -3,7 +3,7 @@ namespace :jekyll do
   desc "Clean and rebuild the site"
   task :rebuild do
     FileUtils.rm_rf('_site')
-    system('jekyll')
+    system('jekyll build')
     system('latexmk -f -pdf -output-directory=_site/cv cv/muller_cv.tex')
     # Tidy up after latexmk as -c doesn't seem to work
     auxfiles = Dir.glob("_site/cv/muller_cv*")
@@ -34,8 +34,9 @@ namespace :debug do
     # http://joshrendek.com/2012/08/fixing-psych-syntaxerror-when-using-jekyll/
     require 'yaml'
     begin
-      Dir.foreach("_posts").each do |f|
-        YAML.load_file(File.join("_posts/", f)) unless f.start_with? "."
+      Dir.glob("_posts/**/*").each do |f|
+        next unless File.file?(f)
+        YAML.load_file(f)
       end
     rescue Psych::SyntaxError => error
       puts "Uh oh! Problem with the YAML front matter in #{error.file}"
