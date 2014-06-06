@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "1.2.1"
+gem "jekyll", "1.3.1"
 
 gem "jekyll-assets", "0.7.2"
 gem "compass", "0.12.2"
