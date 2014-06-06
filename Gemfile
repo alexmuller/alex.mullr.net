@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "rake", "10.3.2"
+
 gem "jekyll", "1.3.1"
 
 gem "jekyll-assets", "0.7.2"
