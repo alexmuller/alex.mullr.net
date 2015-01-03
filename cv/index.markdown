@@ -3,14 +3,35 @@ layout: main
 title: CV
 ---
 
-[Alex Muller's CV (PDF)][pdf_cv] &bull; [GitHub][gh]
+The [PDF copy of my CV][pdf_cv] contains my most recent experience.
 
 [pdf_cv]: muller_cv.pdf
 [gh]: https://github.com/alexmuller
 
 ## Older work and experience ##
 
-### Web developer, Nouse (2008&mdash;2009) and Web designer, YSTV (2009&mdash;2011) ###
+### One Click Orgs (2010 to 2011) ###
+
+[One Click Orgs][oco] is an online service to help groups with their legal,
+decision making and membership structure. I regularly worked over IRC and
+in person with other volunteer developers, [committing][oco-commits]
+Ruby on Rails, Haml and Sass code to the [OCO GitHub repository][oco-repo].
+
+[oco]: http://www.oneclickorgs.com/
+[oco-repo]: https://github.com/oneclickorgs/one-click-orgs
+[oco-commits]: https://github.com/oneclickorgs/one-click-orgs/commits/master?author=alexmuller
+
+### York Students in Schools (January 2009 to February 2010) ###
+
+I was involved with the [York Students in Schools][ysis] placement scheme, spending
+half a day each week at a local school to assist the teacher with activities
+and any computing issues or questions. I feel that the placement was useful in
+many respects, primarily because it greatly improved my explanatory and
+presentation skills.
+
+[ysis]: https://www.york.ac.uk/students/work-volunteering-careers/skills/volunteer/ysis/
+
+### Web developer, Nouse (2008 to 2009) and Web designer, YSTV (2009 to 2011) ###
 
 At university I became very involved with media societies, including the
 student newspaper Nouse and the television station YSTV. Redeveloping the
