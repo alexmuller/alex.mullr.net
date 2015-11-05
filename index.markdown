@@ -28,11 +28,10 @@ day revolved around creating prototypes of web applications in Ruby on Rails.
 <!-- Not many days were normal, though.
      There's that time we made an internet-controlled piñata. -->
 
-Right now I work as a software developer on the [GDS Performance
-Platform][performanceplatform], as part of the [Government Digital
-Service][gds]. There's a lot of Python, Ruby and MongoDB and a little
-bit of lots of other things. I've already learnt a ridiculous amount about
-configuring servers (using Puppet).
+Right now I work as a software developer on the GOV.UK Infrastructure team, as
+part of the [Government Digital Service][gds]. I used to work on the [Performance Platform][performanceplatform].
+There's a lot of Python, Ruby and MongoDB and a little bit of lots of other things.
+I've already learnt a ridiculous amount about configuring servers (using Puppet).
 
 - I have a [blog][].
 - I also have a [CV][].
