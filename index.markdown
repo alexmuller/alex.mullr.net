@@ -44,4 +44,4 @@ I've already learnt a ridiculous amount about configuring servers (using Puppet)
 [twitter]: https://twitter.com/alexmuller
 
 [performanceplatform]: https://www.gov.uk/performance
-[gds]: http://digital.cabinetoffice.gov.uk/
+[gds]: https://gds.blog.gov.uk
