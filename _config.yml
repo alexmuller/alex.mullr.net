@@ -8,6 +8,7 @@ include:
   - .htaccess
 exclude:
   - cv/muller_cv.tex
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - Procfile
