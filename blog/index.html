@@ -7,7 +7,7 @@ title: Blog
 <a href="{{ post.url }}" class="block">
   <div id="featured-post">
     <h1>{{ post.title }}</h1>
-    <abbr class="timeago" title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_long_string }}</abbr>
+    <abbr title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_long_string }}</abbr>
     <p class="description">{{ post.description }}</p>
   </div>
 </a>
@@ -20,7 +20,7 @@ title: Blog
       <li class="fourcol {% cycle 'first', 'middle', 'last' %}">
         <div class="postmeta">
           <h2>{{ post.title }}</h2>
-          <abbr class="timeago" title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_long_string }}</abbr>
+          <abbr title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_long_string }}</abbr>
           <p class="description">{{ post.description }}</p>
         </div>
       </li>
@@ -33,39 +33,10 @@ title: Blog
   {% for post in site.posts limit: 13 offset: 7 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>(<abbr class="timeago" title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_string }}</abbr>)</span>
+      <span>(<abbr title="{{ post.date | date_to_xmlschema}}">{{ post.date | date_to_string }}</abbr>)</span>
     </li>
   {% endfor %}
     <li>
       &hellip;and there's <a href="archive/">a complete archive</a> available if you're looking for even older posts.
     </li>
 </ol>
-
-<div id="random-post" style="display: none;">
-  <p>Or try this one&hellip; a random post from a long time ago!</p>
-  <a href="#">
-    <h2></h2>
-    <abbr class="timeago" title=""></abbr>
-  </a>
-</div>
-
-{% include timeago.html %}
-
-<script type="text/javascript">
-  var jekyllPosts = [];
-  {% for post in site.posts limit: 80 offset: 20 %}
-    jekyllPosts.push({"title": "{{ post.title }}", "url": "{{ post.url }}", "date": "{{ post.date | date_to_xmlschema }}"});
-  {% endfor %}
-
-  var randomPost = jekyllPosts[Math.floor(Math.random() * jekyllPosts.length)];
-
-  $(document).ready(function() {
-    $("#random-post a").attr("href", randomPost.url);
-    $("#random-post h2").text(randomPost.title);
-    $("#random-post abbr").text(randomPost.date);
-    $("#random-post abbr").attr("title", randomPost.date);
-    $("#random-post").show();
-
-    $("abbr.timeago").timeago();
-  });
-</script>
