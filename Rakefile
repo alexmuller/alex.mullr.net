@@ -43,6 +43,7 @@ namespace :debug do
     rescue Psych::SyntaxError => error
       puts "Uh oh! Problem with the YAML front matter in #{error.file}"
       puts "  At line #{error.line}, column #{error.column}: #{error.problem}"
+      exit 1
     else
       puts "The YAML front matter for your posts looks A-ok to me."
     end
