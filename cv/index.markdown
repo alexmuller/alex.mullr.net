@@ -51,8 +51,12 @@ work together as a team, both in the planning and undertaking.
 
 ## Education ##
 
-- University of York
-- St Paul's School
+### University of York
+
+### St Paul's School, London (2003 to 2008)
+
+- A Level: Computing (A), Mathematics (A), Physics (C)
+- AS Level: French (A)
 
 ## Additional experience ##
 
