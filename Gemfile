@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 gem "rake", "10.3.2"
 
-gem "jekyll", "1.3.1"
+gem "jekyll", "2.5.3"
 
-gem "jekyll-assets", "0.7.2"
+gem "jekyll-assets", "0.14.0"
 gem "compass", "0.12.2"
 gem "sass", "3.2.10"
 
-gem "rdiscount", "2.1.6"
+gem "rdiscount", "2.2.7.3"
